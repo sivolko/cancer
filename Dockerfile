@@ -20,7 +20,7 @@ RUN apt-get install python3-wheel -y
 RUN apt-get install pkg-config -yRUN pip3  install tensorflow
 RUN pip3 install --upgrade tensorflow-probability
 RUN pip3  install keras
-RUN yum install git -y
+RUN apt-get install git -y
 
 RUN apt-get install sudo -y
 
